@@ -8,7 +8,8 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     shiny, 
-    golem
-RoxygenNote: 6.1.0
+    golem,
+    shinydashboard
+RoxygenNote: 6.1.1
 URL: https://github.com/vanlog/vincent
 BugReports: https://github.com/vanlog/vincent/issues
