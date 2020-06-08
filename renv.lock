@@ -20,6 +20,13 @@
       "RemotePkgType": "source",
       "Hash": "49c067f3ef036bbaa5739a86fbf20389"
     },
+    "COVID19": {
+      "Package": "COVID19",
+      "Version": "2.0.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e13b515efd3adc65e0669f174cb642c2"
+    },
     "DT": {
       "Package": "DT",
       "Version": "0.13",
@@ -215,6 +222,13 @@
       "RemotePkgType": "source",
       "Hash": "a8157c5df2c23983f41903cacf309399"
     },
+    "dplyr": {
+      "Package": "dplyr",
+      "Version": "1.0.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "4011f62581a34080e44105d4aa05a97f"
+    },
     "ellipsis": {
       "Package": "ellipsis",
       "Version": "0.3.1",
@@ -257,6 +271,13 @@
       "RemoteRepos": "structure(\"https://cran.rstudio.com/\", .Names = \"CRAN\")",
       "RemotePkgType": "source",
       "Hash": "60dc3bcde288b545b743839ae62f8d6c"
+    },
+    "generics": {
+      "Package": "generics",
+      "Version": "0.0.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "b8cff1d1391fd1ad8b65877f4c7f2e53"
     },
     "gh": {
       "Package": "gh",
@@ -710,6 +731,20 @@
       "Repository": "CRAN",
       "Hash": "1c61e4cad000e03b1bd687db16a75926"
     },
+    "tidyr": {
+      "Package": "tidyr",
+      "Version": "1.1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "7395a05640bf91502dd475a84008d87e"
+    },
+    "tidyselect": {
+      "Package": "tidyselect",
+      "Version": "1.1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "6ea435c354e8448819627cf686f66e0a"
+    },
     "usethis": {
       "Package": "usethis",
       "Version": "1.6.1",
@@ -737,6 +772,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "1739235995f08583db4095a28c357207"
+    },
+    "wbstats": {
+      "Package": "wbstats",
+      "Version": "0.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "a7b3a94feff9cf8e3dcb6387390a79c5"
     },
     "whisker": {
       "Package": "whisker",
