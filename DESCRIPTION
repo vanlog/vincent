@@ -2,7 +2,7 @@ Package: vincent
 Title: Amazing Shiny App
 Version: 0.0.0.9000
 Authors@R: person('Andrea', 'Melloncelli', email = 'andrea@vanlog.it', role = c('cre', 'aut'))
-Description: Example Package Shiny Application.
+Description: Advanced Shiny Application.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true

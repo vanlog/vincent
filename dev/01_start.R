@@ -11,7 +11,7 @@
 golem::fill_desc(
   pkg_name = "vincent", # The Name of the package containing the App 
   pkg_title = "Amazing Shiny App", # The Title of the package containing the App 
-  pkg_description = "Example Package Shiny Application.", # The Description of the package containing the App 
+  pkg_description = "Advanced Shiny Application.", # The Description of the package containing the App 
   author_first_name = "Andrea", # Your First Name
   author_last_name = "Melloncelli",  # Your Last Name
   author_email = "andrea@vanlog.it",      # Your Email
