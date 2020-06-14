@@ -54,6 +54,21 @@ golem::use_recommended_deps()
 # golem::use_utils_server()
 
 
+# R environment
+#
+# install.packages("renv")
+renv::init()
+renv::settings$snapshot.type("explicit")
+renv::snapshot()
+#
+# Examples for you:
+# 
+# renv::restore()
+# renv::deactivate()
+# .libPaths()
+# renv::activate()
+# .libPaths()
+
 # You're now set! ----
 
 # go to dev/02_dev.R
