@@ -2,6 +2,7 @@ default:
   golem_name: vincent
   golem_version: 0.0.0.9000
   app_prod: no
+  log_file: !expr file.path(here::here("log"), paste0(format(lubridate::now("GMT"), "%Y-%m-%d_%H-%M-%S"), ".log"))
 production:
   app_prod: yes
 dev:

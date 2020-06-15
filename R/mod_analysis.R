@@ -30,12 +30,15 @@ mod_analysis_server <- function(input, output, session,
  
   output$plot1 <- renderPlot({
     req(data1())
+    flog.debug("plotting data1...")
     
-    data1() %>% 
-      filter(.data$id %in% c("ITA", "GRC", "FRA", "SWE", "GBR")) %>% 
-      ggplot(aes_string(x = "date", y = "deaths", color = "id" )) +
-      geom_line(size = 1) +
-      theme_light()
+    ftry(
+      data1() %>% 
+        filter(.data$id %in% c("ITA", "GRC", "FRA", "SWE", "GBR")) %>% 
+        ggplot(aes_string(x = "date", y = "deaths", color = "id" )) +
+        geom_line(size = 1) +
+        theme_light()
+    )
   })
 }
     

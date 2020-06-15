@@ -41,7 +41,9 @@ mod_load_data_server <- function(input, output, session,
   observe({
     req(input$file1$datapath)
     
-    data1( read_csv(input$file1$datapath) )
+    ftry({
+      data1( read_csv(input$file1$datapath) ) 
+    })
   })
   
   

@@ -219,12 +219,33 @@
       "Repository": "CRAN",
       "Hash": "83ab58a0518afe3d17e41da01af13b60"
     },
+    "formatR": {
+      "Package": "formatR",
+      "Version": "1.7",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "ad36e26eeeb7393886d8a0e19bc6ee42"
+    },
     "fs": {
       "Package": "fs",
       "Version": "1.4.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "780713bd2f53156fae001443dcdbdcd5"
+    },
+    "futile.logger": {
+      "Package": "futile.logger",
+      "Version": "1.4.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "99f0ace8c05ec7d3683d27083c4f1e7e"
+    },
+    "futile.options": {
+      "Package": "futile.options",
+      "Version": "1.0.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "0d9bf02413ddc2bbe8da9ce369dcdd2b"
     },
     "generics": {
       "Package": "generics",
@@ -371,6 +392,13 @@
       "Repository": "CRAN",
       "Hash": "73832978c1de350df58108c745ed0e3e"
     },
+    "lambda.r": {
+      "Package": "lambda.r",
+      "Version": "1.2.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "b1e925c4b9ffeb901bacf812cbe9a6ad"
+    },
     "later": {
       "Package": "later",
       "Version": "1.1.0.1",
@@ -398,6 +426,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "361811f31f71f8a617a9a68bf63f1f42"
+    },
+    "lubridate": {
+      "Package": "lubridate",
+      "Version": "1.7.9",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "fc1c91e2e8d9e1fc932e75aa1ed989b7"
     },
     "magrittr": {
       "Package": "magrittr",

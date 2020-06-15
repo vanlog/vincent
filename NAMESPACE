@@ -2,7 +2,9 @@
 
 export(run_app)
 import(dplyr)
+import(futile.logger)
 import(ggplot2)
+import(lubridate)
 import(shiny)
 import(shinydashboard)
 importFrom(golem,activate_js)

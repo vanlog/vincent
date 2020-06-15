@@ -17,7 +17,9 @@ Imports:
     readr,
     dplyr,
     ggplot2,
-    rlang
+    rlang,
+    futile.logger,
+    lubridate
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0
