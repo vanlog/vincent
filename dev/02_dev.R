@@ -20,7 +20,7 @@
 ## Add modules ----
 ## Create a module infrastructure in R/
 golem::add_module( name = "load_data" ) # Name of the module
-# golem::add_module( name = "name_of_module2" ) # Name of the module
+golem::add_module( name = "analysis" ) # Name of the module
 
 ## Add helper functions ----
 ## Creates ftc_* and utils_*

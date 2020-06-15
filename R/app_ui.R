@@ -16,7 +16,8 @@ app_ui <- function(request) {
       ## Sidebar content
       dashboardSidebar(
         sidebarMenu(
-          menuItem(text = "LoadData", tabName = "loaddata", icon = icon("home"))
+          menuItem(text = "LoadData", tabName = "loaddata", icon = icon("home")),
+          menuItem(text = "Analysis", tabName = "analysis", icon = icon("fa-line-chart", lib = "font-awesome"))
         )
       ),
       ## Body content
@@ -25,8 +26,11 @@ app_ui <- function(request) {
         tabItems(
           # First tab content
           tabItem(tabName = "loaddata",
-                  mod_load_data_ui("load_data_1"))
-
+                  mod_load_data_ui("load_data_1")),
+          # Secon tab content
+          tabItem(tabName = "analysis",
+                  mod_analysis_ui("analysis_1"))
+          
         )
         
       )

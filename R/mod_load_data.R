@@ -30,11 +30,12 @@ mod_load_data_ui <- function(id){
 #'
 #' @noRd 
 #' @importFrom readr read_csv
-mod_load_data_server <- function(input, output, session){
+mod_load_data_server <- function(input, output, session,
+                                 data1){
   ns <- session$ns
   
   
-  data1 <- reactiveVal()
+  # data1 <- reactiveVal()
   
   
   observe({

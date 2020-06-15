@@ -59,7 +59,9 @@ golem::use_recommended_deps()
 # install.packages("renv")
 renv::init()
 renv::settings$snapshot.type("explicit")
+
 renv::snapshot()
+
 #
 # Examples for you:
 # 
