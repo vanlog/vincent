@@ -55,6 +55,12 @@ golem::use_recommended_deps()
 
 # You're now set! ----
 
+# install.packages("renv")
+renv::init()
+renv::settings$snapshot.type("explicit")
+
+renv::snapshot()
+
 # go to dev/02_dev.R
 rstudioapi::navigateToFile( "dev/02_dev.R" )
 
