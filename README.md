@@ -7,6 +7,8 @@ The goal of vincent is to demonstrate you how to write a tidy production-ready S
 
 ## Setup
 
+### Mandatory
+
 In order to attend this tutorial is enough to have R (>3.4), RStudio (best if it is updated) and Git installed on your computer. Dependently on you operative system you can install:
 
 1. install "Git for Windows" [https://gitforwindows.org/](https://gitforwindows.org/) if you use **Windows** 
@@ -22,7 +24,17 @@ In order to test that:
 
 If everything works, your setup is complete. We will develop the package from scratch.
 
+### Optional
+
+This steps are useful only to speed up the installation:
+
+1. `renv::activate()`
+2. `renv::restore()`
+
+
+
 I am looking forward meeting you!
+
 
 
 
