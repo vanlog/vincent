@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "3.6.2",
+    "Version": "3.4.3",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -215,7 +215,7 @@
       "RemoteUsername": "ThinkR-open",
       "RemoteRef": "master",
       "RemoteSha": "5fa9a92e2863c443cdbcd6d477ab97c6db717f79",
-      "Hash": "0ab1fb236237fce8c3b2255fb45da4ad"
+      "Hash": "39469f844290942fe7cf8c209c36c9bb"
     },
     "here": {
       "Package": "here",
@@ -461,6 +461,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "a56d058adfc9df30bdd45dbb01cec39f"
+    },
+    "shinydashboard": {
+      "Package": "shinydashboard",
+      "Version": "0.7.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "133639dc106955eee4ffb8ec73edac37"
     },
     "sourcetools": {
       "Package": "sourcetools",
