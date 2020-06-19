@@ -28,6 +28,7 @@ If everything works, your setup is complete. We will develop the package from sc
 
 This steps are useful only to speed up the installation:
 
+0. `install.packages("renv")`
 1. `renv::activate()`
 2. `renv::restore()`
 
