@@ -34,7 +34,7 @@ mod_analysis_server <- function(input, output, session,
     
     ftry(
       data1() %>% 
-        filter(.data$id %in% c("ITA", "GRC", "FRA", "SWE", "GBR")) %>% 
+        filter_countries(c("ITA", "GRC", "FRA", "SWE", "GBR")) %>% 
         ggplot(aes_string(x = "date", y = "deaths", color = "id" )) +
         geom_line(size = 1) +
         theme_light()
